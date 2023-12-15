@@ -18,8 +18,8 @@
   background-position: center;
 }
 
-.container04 {
-  padding-bottom: 55px;
+.titlePadding2 {
+  padding-top: 700px;
 }
 
 .arrowDown {
@@ -81,11 +81,16 @@
 }
 @media (max-width: 769px) {
   .titlePadding {
-    font-size: 20px;
+    font-size: 15x;
   }
   .shortTitle, .mediumTitle {
     width: auto;
-    font-size: 30px;
+    font-size: 20px;
+  }
+}
+@media (max-height: 1000px) {
+  .titlePadding3 {
+    padding-bottom: 80px;
   }
 }
 .container00.container01 {
@@ -103,6 +108,10 @@
 
 .titlePadding {
   padding-top: 630px;
+}
+
+.titlePadding3 {
+  padding-top: 700px;
 }
 
 .shortTitle {
