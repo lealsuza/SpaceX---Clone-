@@ -3,4 +3,116 @@
   color: white;
 }
 
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.header #navItem:hover {
+  color: #b9b9b9;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container04 {
+  padding-bottom: 55px;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoPc {
+  width: 230px;
+  margin-left: -15px;
+  margin-right: 40px;
+}
+
+#button {
+  padding: 15px 35px;
+}
+
+.footer {
+  background-color: black;
+  height: 8vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copySuzana {
+  color: #555252;
+}
+
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+@media (max-width: 769px) {
+  .titlePadding {
+    font-size: 20px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 30px;
+  }
+}
+.container00.container01 {
+  background-image: url(../../images/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../images/home/02.jpg);
+}
+.container00.container03 {
+  background-image: url(../../images/home/03.jpg);
+}
+.container00.container04 {
+  background-image: url(../../images/home/04.gif);
+}
+
+.titlePadding {
+  padding-top: 630px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+.container00{
+  &.container01{
+    background-image:url(../../images/home/01.jpg) ;
+  }
+
+  &.container02{
+    background-image:url(../../images/home/02.jpg) ;
+  }
+  
+  &.container03{
+    background-image:url(../../images/home/03.jpg) ;
+  }
+
+  &.container04{
+    background-image:url(../../images/home/04.gif) ;
+  }
+}
+
+.titlePadding{
+  padding-top: 630px;
+}
+
+.shortTitle{
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle{
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+
+
