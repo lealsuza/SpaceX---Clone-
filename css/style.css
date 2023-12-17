@@ -76,16 +76,11 @@
 @media (max-width: 380px) {
   .shortTitle, .mediumTitle {
     width: auto;
-    font-size: 40px;
   }
 }
 @media (max-width: 769px) {
-  .titlePadding {
-    font-size: 15x;
-  }
   .shortTitle, .mediumTitle {
     width: auto;
-    font-size: 20px;
   }
 }
 @media (max-height: 1000px) {
@@ -115,12 +110,12 @@
 }
 
 .shortTitle {
-  width: 550px;
+  width: 100%;
   margin-bottom: -25px;
 }
 
 .mediumTitle {
-  width: 650px;
+  width: 100%;
   margin-bottom: -25px;
 }
 
