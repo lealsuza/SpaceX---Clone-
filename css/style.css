@@ -36,6 +36,8 @@
 
 #button {
   padding: 15px 35px;
+  border: 2.9px solid white;
+  border-radius: 0%;
 }
 
 .footer {
