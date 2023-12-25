@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
 * {
   color: white;
 }
@@ -121,11 +121,22 @@
   margin-bottom: -25px;
 }
 
+* {
+  font-family: Rubik, sans-serif;
+}
+
+.fadeTxt {
+  color: #686868;
+}
+
 .container00.container05 {
   background-image: url(../../images/falcon9/01.jpg);
 }
 .container00.container06 {
   background-image: url(../../images/falcon9/02.jpg);
+}
+.container00.container07 {
+  background-image: url(../../images/falcon9/08.jpg);
 }
 .container00.carousel01 {
   background-image: url(../../images/falcon9/03.jpg);
@@ -142,8 +153,238 @@
 .container00.carousel05 {
   background-image: url(../../images/falcon9/07.jpg);
 }
-.container00.container07 {
-  background-image: url(../../images/falcon9/08.jpg);
+
+.nav-item {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+.titleContent .titleFalcon9 {
+  font-size: 90px;
+  font-family: Rubik, sans-serif;
+  font-weight: 480;
+}
+.titleContent .subTitleFalcon {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.numbers {
+  background-color: black;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .titleNumb {
+  font-size: 120px;
+  font-weight: 300;
+}
+.numbers .subTitleNumb {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.falcon9Desc {
+  padding: 0px 15px;
+  font-size: 16px;
+  width: 510px;
+  line-height: 30px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin: 0px 15px;
+  padding-top: 15%;
+}
+#overViewPosition .subTitleOverView {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+#overViewPosition .titleOverView {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#overViewPosition .table > :not(caption) > * > * {
+  background-color: transparent;
+  color: white;
+}
+#overViewPosition td {
+  padding: 20px 0px;
+}
+
+.carouselSlide img {
+  height: 100vh;
+}
+
+.carouselText {
+  background-color: black;
+}
+
+.dowloadDesc {
+  background-color: black;
+  height: 47vh;
+  padding: 240px 30px 0px 30px;
+}
+.dowloadDesc a {
+  text-decoration: none;
+  color: white;
+}
+.dowloadDesc a:hover {
+  color: rgb(155, 155, 155);
+}
+.dowloadDesc p {
+  font-size: 13px;
+}
+.dowloadDesc button {
+  border: 2px solid white;
+  border-radius: 0%;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.footer {
+  height: 10vh;
+  margin-top: px;
+}
+
+@media (max-width: 960px) {
+  .logoPc {
+    width: 160px;
+  }
+  .titleContent .titleFalcon9 {
+    font-size: 65px;
+  }
+  .titleContent .subTitleFalcon {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .numbers {
+    height: 30vh;
+  }
+  .numbers .titleNumb {
+    font-size: 70px;
+    font-weight: 300;
+  }
+  .numbers .subTitleNumb {
+    font-size: 11px;
+  }
+  .falcon9Desc {
+    font-size: 16px;
+    width: 500px;
+  }
+  #overViewPosition .subTitleOverView {
+    font-size: 20px;
+    margin: 0;
+  }
+  #overViewPosition .titleOverView {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  #overViewPosition .table > :not(caption) > * > * td {
+    font-size: 10px;
+    font-weight: 514;
+  }
+  #overViewPosition .merlinDesc {
+    margin: 20px 0px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #overViewPosition .underTitle {
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 514;
+  }
+  .carouselText {
+    font-size: 15px;
+  }
+  .dowloadDesc p {
+    font-size: 13px;
+    margin: 5px 25px;
+  }
+  .dowloadDesc .btn {
+    font-size: 14px;
+    font-weight: 514;
+  }
+}
+@media (max-width: 600px) {
+  .titleContent .titleFalcon9 {
+    font-size: 45px;
+  }
+  .titleContent .subTitleFalcon {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .numbers {
+    height: 40vh;
+  }
+  .numbers .titleNumb {
+    font-size: 40px;
+  }
+  .numbers .subTitleNumb {
+    font-size: 12px;
+  }
+  .falcon9Desc {
+    font-size: 15px;
+    width: 100%;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+    margin: 0px 15px;
+  }
+  #overViewPosition .subTitleOverView {
+    font-size: 15px;
+    margin: 0;
+  }
+  #overViewPosition .titleOverView {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  #overViewPosition .table > :not(caption) > * > * {
+    width: auto;
+  }
+  #overViewPosition td {
+    font-size: 14px;
+    font-weight: 514;
+  }
+  #overViewPosition .merlinDesc {
+    margin: 20px 0px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #overViewPosition .underTitle {
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .carouselText {
+    font-size: 12px;
+  }
+  .dowloadDesc p {
+    font-size: 13px;
+    margin: 5px 25px;
+  }
+  .dowloadDesc .btn {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 514;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

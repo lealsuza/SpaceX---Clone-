@@ -1,3 +1,11 @@
+* {
+  font-family: Rubik, sans-serif;
+}
+
+.fadeTxt {
+  color: $fade-color;
+}
+
 .container00 {
   &.container05 {
     background-image: url(../../images/falcon9/01.jpg);
@@ -5,6 +13,10 @@
 
   &.container06 {
     background-image: url(../../images/falcon9/02.jpg);
+  }
+
+  &.container07 {
+    background-image: url(../../images/falcon9/08.jpg);
   }
 
   &.carousel01 {
@@ -27,7 +39,300 @@
     background-image: url(../../images/falcon9/07.jpg);
   }
 
-  &.container07 {
-    background-image: url(../../images/falcon9/08.jpg);
+}
+
+.nav-item {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+
+  .titleFalcon9 {
+    font-size: 90px;
+    font-family: Rubik, sans-serif;
+    font-weight: 480;
+  }
+
+  .subTitleFalcon {
+      font-size: 15px;
+      font-weight: 300;
+    }
+}
+
+.numbers {
+  background-color: black;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+  .titleNumb {
+    font-size: 120px;
+    font-weight: 300;
+  }
+
+  .subTitleNumb {
+    font-size: 20px;
+    font-weight: 300;
   }
 }
+
+.falcon9Desc {
+  padding: 0px 15px;
+  font-size: 16px;
+  width: 510px;
+  line-height: 30px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin: 0px 15px;
+  padding-top: 15%;
+
+  .subTitleOverView {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .titleOverView {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .table>:not(caption)>*>* {
+    background-color: transparent;
+    color: white;
+  }
+  td {
+    padding: 20px 0px;
+  }
+}
+
+.carouselSlide {
+  img {
+    height: 100vh;
+  }
+  
+}
+
+.carouselText {
+  background-color: black;
+}
+
+.dowloadDesc {
+  background-color: black;
+  height: 47vh;
+
+  padding: 240px 30px 0px 30px;
+
+  a{
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: rgb(155, 155, 155);
+    }
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  button {
+    border: 2px solid white;
+    border-radius: 0%;
+    margin: 10px;
+    font-size: 15px;
+  }
+}
+
+.footer {
+  height: 10vh;
+  margin-top: px;
+}
+
+
+
+// Media query
+
+@media (max-width: 960px) {
+  .logoPc {
+    width: 160px;
+  }
+
+  .titleContent {
+    .titleFalcon9 {
+      font-size: 65px;
+    }
+
+    .subTitleFalcon{
+    font-size: 15px;
+    font-weight: 300;
+    }
+  }
+
+  .numbers {
+    height: 30vh;
+    
+    .titleNumb {
+      font-size: 70px;
+      font-weight: 300;
+    }
+
+    .subTitleNumb {
+      font-size: 11px;
+    }
+  }
+
+  .falcon9Desc {
+    font-size: 16px;
+    width: 500px;
+  }
+
+  #overViewPosition {
+    .subTitleOverView {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .titleOverView {
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+    
+    .table>:not(caption)>*>* {
+      td {
+        font-size: 10px;
+        font-weight: 514;
+      }
+    }
+
+    .merlinDesc {
+      margin: 20px 0px;
+      font-size: 15px;
+      line-height: 25px;
+    }
+    
+    .underTitle {
+      margin-bottom: 30px;
+      font-size: 17px;
+      font-weight: 514;
+    }
+  }
+
+  .carouselText {
+    font-size: 15px;
+  }
+
+  .dowloadDesc {
+    p {
+      font-size: 13px;
+      margin: 5px 25px;
+    }
+    .btn {
+      font-size: 14px;
+      font-weight: 514;
+    }
+  }
+} 
+
+
+
+
+@media (max-width: 600px) {
+  .titleContent {
+    .titleFalcon9 {
+      font-size: 45px;
+    }
+
+    .subTitleFalcon{
+    font-size: 15px;
+    font-weight: 300;
+    }
+  }
+  
+  .numbers {
+    height: 40vh;
+    
+    .titleNumb {
+      font-size: 40px;
+    }
+  
+    .subTitleNumb {
+      font-size: 12px;
+    }
+  }
+  
+  .falcon9Desc {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+    margin: 0px 15px;
+
+    .subTitleOverView {
+      font-size: 15px;
+      margin: 0;
+    }
+    .titleOverView {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+    
+    .table>:not(caption)>*>* {
+      width: auto;
+    }
+    
+    td {
+      font-size: 14px;
+      font-weight: 514;
+    }
+    
+    .merlinDesc {
+      margin: 20px 0px;
+      font-size: 15px;
+      line-height: 25px;
+    }
+    
+    .underTitle {
+      margin-bottom: 30px;
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+
+
+  .carouselText {
+    font-size: 12px;
+  }
+
+  .dowloadDesc {
+    p {
+      font-size: 13px;
+      margin: 5px 25px;
+    }
+    .btn {
+      width: 100%;
+      font-size: 14px;
+      font-weight: 514;
+    }
+  }
+}
+
