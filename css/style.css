@@ -34,10 +34,28 @@
   margin-right: 40px;
 }
 
-#button {
-  padding: 15px 35px;
-  border: 2.9px solid white;
+.dowloadDesc {
+  background-color: black;
+  height: 47vh;
+  padding: 240px 30px 0px 30px;
+}
+.dowloadDesc p {
+  font-size: 13px;
+}
+
+.btn {
+  border: 2px solid white;
   border-radius: 0%;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.email {
+  text-decoration: none;
+  color: white;
+}
+.email:hover {
+  color: rgb(155, 155, 155);
 }
 
 .footer {
@@ -234,28 +252,6 @@
 
 .carouselText {
   background-color: black;
-}
-
-.dowloadDesc {
-  background-color: black;
-  height: 47vh;
-  padding: 240px 30px 0px 30px;
-}
-.dowloadDesc a {
-  text-decoration: none;
-  color: white;
-}
-.dowloadDesc a:hover {
-  color: rgb(155, 155, 155);
-}
-.dowloadDesc p {
-  font-size: 13px;
-}
-.dowloadDesc button {
-  border: 2px solid white;
-  border-radius: 0%;
-  margin: 10px;
-  font-size: 15px;
 }
 
 .footer {
