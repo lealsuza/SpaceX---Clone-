@@ -35,11 +35,33 @@
   margin-right: 40px;
 }
 
-#button {
-  padding: $padding-button;
-  border: 2.9px solid white;
-  border-radius: 0%;
+.dowloadDesc {
+  background-color: black;
+  height: 47vh;
+
+  padding: 240px 30px 0px 30px;
+
+  p {
+    font-size: 13px;
+  }
 }
+
+.btn {
+  border: 2px solid white;
+  border-radius: 0%;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.email {
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    color: rgb(155, 155, 155);
+  }
+}  
+
 
 .footer {
   background-color: black;
