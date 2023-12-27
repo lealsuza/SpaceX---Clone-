@@ -22,41 +22,34 @@
   }
 }
 
+.nav-item {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
 .container01Content {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   .titleHuman {
-    margin-top: 50px;
     font-size: 90px;
+    font-weight: 514;
   }
 
   .subTitleHuman {
-    margin-top: 20px;
-    font-size: 30px;
+    margin-top: 5px;
+    font-size: 16px;
     font-weight: 300;
   }
-
-  .arrowDown {
-    position: relative;
-    top: 26%;
-  }
-}
-
-.earthDesc {
-  background-color: black;
-  height: 25vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .containerRightContent {
   margin-left: 60%;
-  padding-top: 15%;
+  padding-top: 300px;
 }
 
 .titleSection {
@@ -71,40 +64,33 @@
 
 .containerLeftContent {
   margin-left: 5%;
-  padding-top: 15%;
+  padding-top: 300px;
 }
 
-@media (max-width: 425px) {
+
+@media (max-width: 960px) {
   .container01Content {
-    h1 {
-      font-size: 40px;
+    .titleHuman {
+      font-size: 65px;
     }
 
-    p {
-      font-size: 16px;
+    .subTitleHuman {
+      font-size: 15px;
     }
-  }
 
-  .arrowDown {
-    display: none;
-  }
-
-  .eartDesc {
-    height: 30vh;
-    p {
-      font-weight: 400;
-      font-size: 14px;
-      width: auto;
+    .arrowDown {
+      position: relative;
+      top: 50%;
     }
   }
 
   .containerRightContent {
-    margin-left: 20%;
-    padding-top: 30%;
+    margin-left: 55%;
+    padding-top: 300px;
   }
 
   .titleSection {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
   }
 
@@ -115,6 +101,64 @@
 
   .containerLeftContent {
     margin-left: 7%;
-    padding-top: 30%;
+    padding-top: 300px;
+  }
+
+  .dowloadDesc {
+    height: 48vh;
+    p {
+      font-size: 13px;
+      margin: 5px 25px;
+    }
+    .btn {
+      font-size: 14px;
+      font-weight: 514;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .container01Content {
+    .titleHuman {
+      font-size: 45px;
+      width: 100%;
+    }
+
+    .subTitleHuman {
+      font-size: 15px;
+    }
+  }
+
+  .arrowDown {
+    display: none;
+  }
+
+  .containerRightContent {
+    margin-left: 305;
+  }
+
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+
+  .dowloadDesc {
+    height: 60vh;
+    
+    .btn {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 328px) {
+  .container01Content {
+    .titleHuman {
+      font-size: 35px;
+      width: 100%;
+    }
+
+    .subTitleHuman {
+      font-size: 15px;
+    }
   }
 }

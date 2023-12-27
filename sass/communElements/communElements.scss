@@ -7,7 +7,6 @@
     color: $link-hover;
     }
   }
-  
 }
 
 .container00 {
@@ -17,14 +16,14 @@
   background-position: center;
 }
 
-
-
 .titlePadding2 {
   padding-top: 700px;
 }
 
 .arrowDown {
   display: inline-block;
+  position: relative;
+  top: 53%;
   width: 90px;
   margin-top: 5px;
 }
