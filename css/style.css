@@ -85,7 +85,11 @@
   color: #555252;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
+  .offcanvas {
+    --bs-offcanvas-width: 350px;
+    backdrop-filter: blur(10px);
+  }
   .titlePadding {
     padding-top: 600px;
   }
