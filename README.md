@@ -19,6 +19,6 @@ Este projeto é um clone do site oficial da SpaceX, desenvolvido como parte de u
 Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões para melhorar o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 <div align="center">
-  <p>🚀</p>
+  <p>🤟</p>
   <p><b>Happy coding!</b></p>
 </div>
