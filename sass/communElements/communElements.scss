@@ -1,8 +1,11 @@
-.header {
-  font-size: 12px;
-  font-weight: bold;
+* {
+  color: white;
+}
 
+.header {
   #navItem{
+    font-size: 13px;
+    font-weight: 500;
     &:hover {
     color: $link-hover;
     }
@@ -16,33 +19,30 @@
   background-position: center;
 }
 
-.titlePadding2 {
-  padding-top: 700px;
+.titlePadding {
+  padding-top: 700px; 
+}
+
+.shortTitle {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.mediumTitle {
+  font-size: 50px;
+  font-weight: 500;
 }
 
 .arrowDown {
   display: inline-block;
-  position: relative;
-  top: 53%;
   width: 90px;
-  margin-top: 5px;
+  margin-top: 50px;
 }
 
 .logoPc {
   width: 230px;
   margin-left: -15px;
   margin-right: 40px;
-}
-
-.dowloadDesc {
-  background-color: black;
-  height: 47vh;
-
-  padding: 240px 30px 0px 30px;
-
-  p {
-    font-size: 13px;
-  }
 }
 
 .btn {
@@ -61,6 +61,11 @@
   }
 }  
 
+.dowloadDesc {
+  height: 30vh;
+  padding-top: 100px;
+  background-color: black;
+}
 
 .footer {
   background-color: black;
@@ -82,41 +87,19 @@
   }
 }
 
-
-  
-
-// Media Query
-
-@media (max-width: 405px) {
-  .logoPc {
-    width: 180px;
-    margin-top: 15px;
+@media (max-width: 990px) {  
+  .titlePadding {
+    padding-top: 600px; 
   }
-  .footer {
-    font-size: 10px;
-  }
-}
-@media (max-width: 350px) {
-  .logoPc {
-    width: 150px;
-    margin-top: 15px;
- }
-} ;
 
-@media (max-width : 380px) {
-  .shortTitle, .mediumTitle {
-    width: auto;
+  .mediumTitle {
+    font-size: 36px;
   }
 }
 
-@media(max-width: 769px) {
-  .shortTitle, .mediumTitle {
-    width: auto;
+@media(max-width: 600px) {
+  .titlePadding {
+    padding-top: 600px; 
   }
 }
 
-@media(max-height: 1000px) {
-  .titlePadding3 {
-    padding-bottom: 80px;
-  }
-}

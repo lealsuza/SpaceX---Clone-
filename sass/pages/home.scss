@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container00{
   &.container01{
     background-image:url(../../images/home/01.jpg) ;
@@ -16,24 +21,15 @@
   }
 }
 
-.titlePadding{
-  padding-top: 630px;
+.container01 {
+  height: 80vh;
+  
+  .titlePadding1 {
+    padding-top: 550px;
+  }
 }
 
-.titlePadding3{
-  padding-top: 700px;
+.btn {
+  margin-left: 0;
 }
-
-.shortTitle{
-  width: 100%;
-  margin-bottom: -25px;
-}
-
-.mediumTitle{
-  width: 100%;
-  margin-bottom: -25px;
-}
-
-
-
 
