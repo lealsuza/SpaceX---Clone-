@@ -38,7 +38,6 @@
   &.carousel05 {
     background-image: url(../../images/falcon9/07.jpg);
   }
-
 }
 
 .nav-item {
@@ -122,9 +121,9 @@
   }
 }
 
-.carouselSlide {
+.carousel-item {
   img {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 
@@ -134,7 +133,6 @@
 
 .footer {
   height: 10vh;
-  margin-top: px;
 }
 
 
