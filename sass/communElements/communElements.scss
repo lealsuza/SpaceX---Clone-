@@ -89,7 +89,7 @@
 
 @media (max-width: 991px) {  
   .offcanvas {
-    --bs-offcanvas-width: 350px;
+    --bs-offcanvas-width: 250px;
     backdrop-filter: blur(10px);
   }
 
@@ -106,5 +106,19 @@
   .titlePadding {
     padding-top: 600px; 
   }
+
+  .offcanvas {
+    --bs-offcanvas-width: 200px;
+  }
 }
 
+@media(max-width: 327px) {
+  .logoPc {
+    margin-right: 30px;
+  }
+
+  .offcanvas {
+    --bs-offcanvas-width: 200px;
+    backdrop-filter: blur(10px);
+  }
+}
