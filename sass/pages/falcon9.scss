@@ -124,6 +124,7 @@
 .carousel-item {
   img {
     min-height: 100vh;
+    object-fit: cover;
   }
 }
 
